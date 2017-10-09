@@ -10,7 +10,7 @@ set showcmd
 
 set foldmethod=syntax
 
-set clipboard=unnamedplus
+" set clipboard=unnamedplus
 
 syntax enable
 colorscheme delek
