@@ -1,6 +1,27 @@
 set nocompatible
 set backspace=indent,eol,start
 
+set history=200
+set ruler
+set showcmd
+set wildmenu
+
+set ttimeout
+set ttimeoutlen=100
+
+" Show @@@ in the last line if it is truncated
+set display=truncate
+
+" Do incremental searching when it's possible to timeout
+if has('reltime')
+  set incsearch
+endif
+
+" Enable mouse select and scroll controls if available
+if has('mouse')
+  set mouse=a
+endif
+
 set number
 
 " set cindent
@@ -8,8 +29,6 @@ filetype indent on
 set tabstop=2
 set shiftwidth=2
 set expandtab
-
-set showcmd
 
 set foldmethod=syntax
 
