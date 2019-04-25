@@ -19,7 +19,7 @@ endif
 
 " Enable mouse select and scroll controls if available
 if has('mouse')
-  set mouse=a
+  set mouse=n
 endif
 
 set number
